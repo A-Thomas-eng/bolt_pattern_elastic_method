@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bolt_pattern_elastic_method"
+version = "1.0.0"
+description = "Bolt pattern force distribution analysis"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/A-Thomas-eng/bolt_pattern_elastic_method"
